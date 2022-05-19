@@ -53,6 +53,8 @@ CIRCUIT DIAGRAM
  ![image](https://user-images.githubusercontent.com/36288975/163544618-6eb8a7b5-7f1a-428a-8d9f-fd899b145efb.png)
 
 ### FIGURE 04 CIRCUIT DIAGRAM
+![image](snip.png)
+![image](okay.png)
 
 ### PROCEDURE:
 1.	Connect the circuit as per the circuit diagram 
@@ -67,6 +69,31 @@ CIRCUIT DIAGRAM
 
 
 ### PROGRAM :
+```
+NAME:A.Virgil Jovita
+REG NO:212221240062
+
+//YouTube|Tech at Home
+#include<Servo.h>
+Servo s1;
+void setup()
+{
+  s1.attach(9);
+}
+void loop()
+{
+ for (int i=0; i<=180; i+= 1)
+  {
+  s1.write(i);
+  delay(15);
+  }
+ for (int i=180; i>=0; i-= 1)
+  {
+  s1.write(i);
+  delay(15);
+  }
+}
+```
  
 
 
